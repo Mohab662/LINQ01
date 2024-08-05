@@ -14,6 +14,7 @@ namespace LINQ01
 		public string ProductName { get; set; }
 		public string Category { get; set; }
 		public decimal UnitPrice { get; set; }
+
 		public int UnitsInStock { get; set; }
 
 		public int CompareTo(Product? other)
